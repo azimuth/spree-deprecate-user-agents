@@ -1,0 +1,14 @@
+<% if @dua_enabled %>
+
+  <!--[if lte IE 6]>
+    <script type="text/javascript">
+      var isRunningIE6OrBelow = true;
+    </script>
+  <![endif]-->
+
+  <script language="javascript">
+    if(isRunningIE6OrBelow == true) {
+      jAlert('<%= @dua_message.gsub(/[\r\n]/, '' ) %>');
+    }
+  </script>
+<% end %>
