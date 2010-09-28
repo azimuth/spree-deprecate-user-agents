@@ -1,5 +1,5 @@
 ---
-    en-US:
+    en:
         dua_enabled: "Deprecate User Agents"
         dua_message: "Message for deprecated user agents:"
         deprecated_user_agents: "Deprecated User Agents"
